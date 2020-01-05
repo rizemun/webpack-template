@@ -1,0 +1,11 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "My template",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "rizemun",
+  "license": "MIT"
+}
