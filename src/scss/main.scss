@@ -1,9 +1,4 @@
-h1 {
-  color: rebeccapurple;
-}
-h3 {
-  color: rebeccapurple;
-}
-h2 {
-  color: rebeccapurple;
-}
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
