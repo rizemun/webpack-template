@@ -4,7 +4,7 @@
   "description": "My template",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --open --mode developement",
+    "dev": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production"
   },
   "author": "rizemun",
