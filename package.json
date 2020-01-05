@@ -4,8 +4,15 @@
   "description": "My template",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "dev": "webpack-dev-server --open --mode developement",
+    "build": "webpack --mode production"
   },
   "author": "rizemun",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
 }
