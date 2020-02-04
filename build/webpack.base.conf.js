@@ -48,7 +48,7 @@ module.exports = {
       }, {
           test: /\.scss/,
           use: [
-              "style-loader",
+              'style-loader',
               MiniCssExtractPlugin.loader,
               {
                   loader: 'css-loader',
@@ -60,7 +60,22 @@ module.exports = {
                   loader: 'sass-loader',
                   options: { sourceMap: true }
               },
-
+          ]
+      }, {
+          test: /\.less/,
+          use: [
+              'style-loader',
+              MiniCssExtractPlugin.loader,
+              {
+                  loader: 'css-loader',
+                  options: { sourceMap: true }
+              }, {
+                  loader: 'postcss-loader',
+                  options: { sourceMap: true, config: { path:`${PATHS.src}/js/postcss.config.js`} }
+              }, {
+                  loader: 'less-loader',
+                  options: { sourceMap: true }
+              },
           ]
       }]
     },
