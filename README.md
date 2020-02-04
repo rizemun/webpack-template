@@ -1,6 +1,6 @@
-#Webpack-template
+# Webpack-template
 Базовая сборка для разработки одностраничных приложений.
-###Установка
+### Установка
 Склонировать репозиторий:  
 ```bash
 $ git clone https://github.com/rizemun/webpack-template.git
@@ -9,7 +9,7 @@ $ git clone https://github.com/rizemun/webpack-template.git
 ```bash
 $ npm i
 ```
-###Использование
+### Использование
 Сборка в режиме разработчика:
 ```bash
 $ npm run dev
