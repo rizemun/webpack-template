@@ -20,7 +20,7 @@ module.exports = {
     output: {
         filename: `${PATHS.assets}js/[name].js`,
         path: PATHS.dist,
-        publicPath: '/'
+        publicPath: './'
     },
     module: {
       rules: [{
@@ -87,7 +87,6 @@ module.exports = {
             filename: `${PATHS.assets}css/[name].css`
         }),
         new HtmlWebpackPlugin({
-            hash: false,
             template: `${PATHS.src}/index.html`,
             filename: './index.html'
         }),
